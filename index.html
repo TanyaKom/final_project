@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My ToDo List</title>
+    <link rel="stylesheet" href="/project.css">
+
+</head>
+<body>
+    <h1 class="main-title">My ToDo List</h1>
+    <div id="input-container" class="input-container">
+        <input type="text" id="input-txt" class="custom-input" placeholder="ToDo List Name">
+        <button class="hero-btn" id="hero-btn" type="button">Create new list</button>
+        <button id="clear-btn" class="clear-btn" type="button">Clear all</button>
+    </div>
+    <div id="listNameContainer">
+    <div id="listName"></div>
+     </div>  
+
+    <div class="task-container" id="task-container">
+        <form id="form">
+        <input type="text" id="hero-container-text" class="hero-container" placeholder="Type your task">
+        <button class="btn-add" id="add-btn" type="button">Add</button>
+     </form>
+    </div>
+
+    <div class="main-container">
+        <div id="emptylist" class="emptyList">ToDo List is empty</div>
+
+        <ul id="tasksList" class="list-group">
+
+            <li class="list-group-first task"
+            <span class="task-title"></span>
+            <div class="task-button">
+
+            <button type="button" data-action="delete" id="task-button" class="task-button">
+            </button>
+        </div>
+    </li>
+    </ul>
+    </div>
+   
+    <script src="/script.js"></script>
+
+</body>
+</html>
